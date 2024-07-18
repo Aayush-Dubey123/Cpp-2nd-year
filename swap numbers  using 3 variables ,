@@ -1,0 +1,12 @@
+#include <iostream>
+int main() {
+int a,b,temp;
+    std::cout << "enter  two numbers = ";
+    std::cin >>a>>b;
+     std::cout << "Before swapping a = " << a << " , b = " << b <<std::endl;
+     temp=a;
+    a=b;
+     b=temp;
+        std::cout << "after swapping a = " << a << " , b = " << b;
+     return 0;
+}
