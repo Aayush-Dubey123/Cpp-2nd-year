@@ -1,0 +1,31 @@
+
+#include <iostream>
+int main() 
+{
+   int a,b,c,ori,num;
+   std::cout<<"enter number =";
+  std::cin>>num;
+   ori = num;
+   a = num%10;
+   num = num/10;
+    b = num%10;
+   num = num/10;
+    c = num%10;
+   num = num/10;
+   if(a> b && a>c)
+   {
+        std::cout<< " largest="<<a<<std::endl;
+   }
+   else
+   {
+       if(b>c)
+        {
+            std::cout<< " largest="<<b<<std::endl;
+        }
+        else
+         {
+              std::cout<< " largest="<<c<<std::endl;
+         }
+   }
+   return 0;
+}
