@@ -1,0 +1,27 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+ inline int add(int x,int y)
+{
+    int c;
+    c=x+y;
+    return c;
+}
+ inline int mul(int x,int y)
+{
+    int c;
+    c=x*y;
+    return c;
+}
+
+int main() 
+{
+    int a,b,c,d;
+    cout<<"enter two numbers :";
+    cin>>a>>b;
+    c=add(a,b);
+    d=mul(a,b);
+    cout<<"addition :"<<c<<endl;
+    cout<<"multiplication :"<<d;
+    return 0;
+}
