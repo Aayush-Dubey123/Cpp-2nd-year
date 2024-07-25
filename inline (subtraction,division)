@@ -1,0 +1,27 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+ inline int sub(int x,int y)
+{
+    int c;
+    c=x-y;
+    return c;
+}
+ inline int division(int x,int y)
+{
+    int c;
+    c=x/y;
+    return c;
+}
+
+int main() 
+{
+    int a,b,c,d;
+    cout<<"enter two numbers :";
+    cin>>a>>b;
+    c=sub(a,b);
+    d=division(a,b);
+    cout<<"subtraction :"<<c<<endl;
+    cout<<"division :"<<d;
+    return 0;
+}
