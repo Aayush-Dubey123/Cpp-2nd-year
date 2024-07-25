@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+   int l,b,AREA;
+   cout<<"Enter length and breadth:";
+   cin>>l>>b;
+   AREA=l*b;
+   cout<<" avrea of rectangle:"<<AREA;
+   
+}
