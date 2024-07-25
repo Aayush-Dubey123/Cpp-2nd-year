@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+   float r,perimeter ;
+   cout<<"Enter units:";
+   cin>>r;
+perimeter =12*r;
+   cout<<" perimeter of cube :"<<perimeter;
+   
+}
