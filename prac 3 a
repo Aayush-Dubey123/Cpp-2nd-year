@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+class student 
+{
+    public : string name ;
+             int age ;
+             float height ;
+   
+    public :void setname(string namestu)
+    {
+        name = namestu ;
+    }
+            void setage(int agestu)
+    {
+        age = agestu ;
+    }        
+            void setheight(float heightstu)
+    {
+        height = heightstu ;
+    }        
+    void printname()
+    {
+        cout<<"\nname="<<name;
+    }
+    void printage()
+    {
+        cout<<"\nage="<<age;
+    }
+    void printheight()
+    {
+        cout<<"\nheight="<<height;
+    }
+};    
+int main()
+{
+    student d1 ;
+    int name1,age1,height1;
+    d1.setname("ayush");
+    d1.printname();
+     d1.setage(12);
+     d1.printage();
+       d1.setheight(98.6);
+       d1.printheight();
+    return 0;
+}
