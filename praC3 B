@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+class employee 
+{
+    private : string name ;
+             int age ;
+             float salary ;
+   
+    public :void setname(string nameemp)
+    {
+        name = nameemp ;
+    }
+            void setage(int ageemp)
+    {
+        age = ageemp ;
+    }        
+            void setsalary(float salaryemp)
+    {
+        salary = salaryemp ;
+    }        
+    void printname()
+    {
+        cout<<"name="<<name;
+    }
+    void printage()
+    {
+        cout<<"\nage="<<age;
+    }
+    void printsalary()
+    {
+        cout<<"\nsalary in k="<<salary;
+    }
+};    
+int main()
+{
+    employee d1 ;
+    int name1,age1,salary1;
+    d1.setname("ayush");
+    d1.printname();
+     d1.setage(12);
+     d1.printage();
+       d1.setsalary(9653.86);
+       d1.printsalary();
+    return 0;
+}
